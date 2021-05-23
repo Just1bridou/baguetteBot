@@ -11,8 +11,6 @@ const token = process.env.TOKEN;
 
 var RGB = true
 
-const axios = require('axios');
-
 Client.on("ready", () => {
 	console.log("• Connected •");
 });
