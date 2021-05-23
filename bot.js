@@ -1,9 +1,12 @@
 const Discord = require("discord.js");
 var rgbaToHex   = require('hex-and-rgba').rgbaToHex;
 
+const dotenv = require('dotenv');
+dotenv.config()
+
 const Client = new Discord.Client();
 // const token = "MzgxODM2NTA2NTkyOTY4NzA1.WhGq9Q.pXMbcLxG4I3t1EcQubKRM-_IsQs";
-const token = "NjE4NTA0Njg3MTc1MzM1OTM4.XW6pYA.5q2MM0f3kkIQRxTyj5AkO3MFjfs";
+const token = process.env.TOKEN;
 /* https://discord.com/oauth2/authorize?client_id=565499644528820236&scope=bot&permissions=9999 */
 
 var RGB = true
