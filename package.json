@@ -1,7 +1,8 @@
 {
     "name": "baguetteBot",
     "dependencies": {
-        "discord.js": "^12.5.1"
+        "discord.js": "^12.5.1",
+        "hex-and-rgba": "1.4.2"
     },
 
     "scripts": {
