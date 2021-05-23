@@ -17,7 +17,7 @@ Client.on("ready", () => {
 
 Client.on('message', message => {
 	
-	const PAS = 30
+	const PAS = 15
 
 if (message.content.startsWith('.rgb')){
 	message.guild.roles.fetch("767106374101631027").then((role) => {
